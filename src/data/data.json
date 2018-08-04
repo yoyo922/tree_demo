@@ -1,0 +1,45 @@
+[
+  {
+    "attributes":{
+    "id": 1 ,
+    "parent": 0
+  },
+  "name": "account1",
+    "children" : [
+        {
+        "attributes":{
+          "id": 2 ,
+          "parent": 1
+        },
+      "name": "account2",
+         "children" : [
+            {"attributes" : {"id": 5 , "parent": 2 }, "name": "account5"},
+            {"attributes": {"id": 6 , "parent": 2 }, "name": "account6"}
+         ]
+       },
+       {
+         "attributes":{
+           "id": 3 ,
+           "parent": 1
+          }
+         ,
+         "name": "account3",
+         "children" : [
+           {"attributes":{"id": 7 , "parent": 3} , "name": "account7"},
+           {"attributes":{"id": 8 , "parent": 3} , "name": "account8"}
+         ]
+       },
+       {
+         "attributes":{
+          "id": 4 ,
+          "parent": 1
+          },
+          "name": "account4",
+          "children" : [
+            {"attributes":{"id": 9 , "parent": 4} , "name": "account9"},
+            {"attributes":{"id": 10,  "parent": 4} , "name": "account10"}
+          ]
+       }
+    ]
+  }
+]
